@@ -1,0 +1,14 @@
+<header>    
+    {{- with .Site.Params.logo -}}
+        {{ range . -}}
+    <img class="logo" src="{{ .logoImg }}" alt="Your Logo">
+        {{- end -}}
+    {{ end -}}
+    <div class="header-content">
+        <div class="title">
+            <h1>PASTORS & MINISTERS FELLOWSHIP INTERNATIONAL<br></h1>
+            <h1>(A MINISTRY OF ALL PEOPLES CHURCH)</h1>
+        </div>
+        {{- partial "nav.html" . }}
+    </div>
+</header>

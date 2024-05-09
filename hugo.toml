@@ -1,0 +1,217 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'PAMFI (Pastors & Ministers Fellowship International)'
+theme = 'hugo-universal-theme'
+disabled_logo = false
+
+#######################contact us menu##################
+
+[[menu.main]]
+    name       = "ABOUT US"
+    identifier = "menu.aboutus"
+    url        = "/"
+    weight     = 1
+[[menu.main]]
+    name       = "SubMENU 1"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.aboutus"
+
+[[menu.main]]
+    name       = "SUBMENU 2"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.aboutus"
+
+
+#####################our fellowship menu##################################
+
+    [[menu.main]]
+    name       = "OUR FELLOWSHIP"
+    identifier = "menu.fellowship"
+    url        = "/"
+    weight     = 2
+
+    [[menu.main]]
+    name       = "SUBMENU 3"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.fellowship"
+    [[menu.main]]
+
+    name       = "SUBMENU 4"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.fellowship"
+
+    [[menu.main]]
+    name       = "SUBMENU 5"
+    url        = "/"
+    weight     = 3
+    parent     = "menu.fellowship"
+
+    ####################################resources menu##############################
+
+     [[menu.main]]
+    name       = "RESOURCES"
+    identifier = "menu.resources"
+    url        = "/"
+    weight     = 3
+
+    [[menu.main]]
+    name       = "SUBMENU 6"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.resources"
+    [[menu.main]]
+
+    name       = "SUBMENU 7"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.resources"
+
+    [[menu.main]]
+    name       = "SUBMENU 8"
+    url        = "/"
+    weight     = 3
+    parent     = "menu.resources"
+
+
+###############events menu#############
+ [[menu.main]]
+    name       = "EVENTS"
+    identifier = "menu.events"
+    url        = "/"
+    weight     = 4
+
+    [[menu.main]]
+    name       = "SUBMENU 9"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.events"
+    [[menu.main]]
+
+    name       = "SUBMENU 10"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.events"
+
+    [[menu.main]]
+    name       = "SUBMENU 11"
+    url        = "/"
+    weight     = 3
+    parent     = "menu.events"
+
+
+######################blog menu#######################
+ [[menu.main]]
+    name       = "BLOG"
+    identifier = "menu.blog"
+    url        = "/"
+    weight     = 5
+
+    [[menu.main]]
+    name       = "SUBMENU 12"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.blog"
+    [[menu.main]]
+
+    name       = "SUBMENU 13"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.blog"
+
+    [[menu.main]]
+    name       = "SUBMENU 14"
+    url        = "/"
+    weight     = 3
+    parent     = "menu.blog"
+
+#######################join menu########################3
+ [[menu.main]]
+    name       = "JOIN"
+    identifier = "menu.join"
+    url        = "/"
+    weight     = 6
+
+    [[menu.main]]
+    name       = "SUBMENU 15"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.join"
+    [[menu.main]]
+
+    name       = "SUBMENU 16"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.join"
+
+    [[menu.main]]
+    name       = "SUBMENU 17"
+    url        = "/"
+    weight     = 3
+    parent     = "menu.join"
+
+#####################contact us menu###########################
+ [[menu.main]]
+    name       = "CONTACT US"
+    identifier = "menu.contact us"
+    url        = "/"
+    weight     = 7
+
+    [[menu.main]]
+    name       = "SUBMENU 18"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.contact us"
+    [[menu.main]]
+
+    name       = "SUBMENU 19"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.contact us"
+
+    [[menu.main]]
+    name       = "SUBMENU 20"
+    url        = "/"
+    weight     = 3
+    parent     = "menu.contact us"
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "DevCows"
+    defaultKeywords = ["devcows", "hugo", "go"]
+    mainSections = ["blog"]
+    defaultDescription = "Site template made by Devcows using Hugo"
+
+    date_format = "January 2, 2006"
+
+    [params.testimonials]
+    enable = true
+    
+    
+
+
+[params.carouselHomepage]
+    enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+
+    [params.features]
+    enable = true
+    cols = 4
+
+    summaryLength = 70
+
+[params.recent_posts]
+    enable = true
+    hide_summary = false
+
+[params.footer.recent_posts]
+    enable = true
+  
+
+[[params.logo]]
+logoImg = "/img/logo.jpg"

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{ partial "headers.html" . }}
+        {{ partial "custom_headers.html" . }}
+    
+</head>
+<body>
+    {{ partial "header" . }}
+    <main>
+        {{ partial "carousel.html" . }}
+        {{ partial "features.html" . }}
+        {{ partial "recent_posts.html" . }}
+        {{ partial "testimonials.html" . }}
+
+        {{ partial "recent_resources.html" . }}
+    </main>
+    <footer>
+        <!-- {{ partial "footer.html" . }} -->
+
+    </footer>
+    
+    {{ partial "scripts.html" . }}
+    
+</body>
+</html>
