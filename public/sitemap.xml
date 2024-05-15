@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:64803/blog/</loc>
+    <loc>http://localhost:9165/blog/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/categories/</loc>
+    <loc>http://localhost:9165/categories/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/blog/categories-post/</loc>
+    <loc>http://localhost:9165/blog/categories-post/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/tags/golang/</loc>
+    <loc>http://localhost:9165/tags/golang/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/tags/hugo/</loc>
+    <loc>http://localhost:9165/tags/hugo/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/categories/lorem/</loc>
+    <loc>http://localhost:9165/categories/lorem/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/</loc>
+    <loc>http://localhost:9165/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/tags/programming/</loc>
+    <loc>http://localhost:9165/tags/programming/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/categories/programming/</loc>
+    <loc>http://localhost:9165/categories/programming/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/categories/pseudo/</loc>
+    <loc>http://localhost:9165/categories/pseudo/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/tags/</loc>
+    <loc>http://localhost:9165/tags/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/tags/theme/</loc>
+    <loc>http://localhost:9165/tags/theme/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/blog/linked-post/</loc>
+    <loc>http://localhost:9165/blog/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/tags/go/</loc>
+    <loc>http://localhost:9165/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/blog/go-is-for-lovers/</loc>
+    <loc>http://localhost:9165/blog/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/blog/hugo-is-for-lovers/</loc>
+    <loc>http://localhost:9165/blog/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/blog/creating-a-new-theme/</loc>
+    <loc>http://localhost:9165/blog/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/categories/starting/</loc>
+    <loc>http://localhost:9165/categories/starting/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:64803/tags/ipsum/</loc>
+    <loc>http://localhost:9165/tags/ipsum/</loc>
   </url><url>
-    <loc>http://localhost:64803/blog/migrate-from-jekyll/</loc>
+    <loc>http://localhost:9165/blog/migrate-from-jekyll/</loc>
   </url>
 </urlset>
