@@ -144,7 +144,7 @@ ul {
 
   /*features*/
 .fellowship-title{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-top: 0;
     font-weight: 500;
     font-size: 18px
@@ -197,6 +197,12 @@ h3{
     border-top: none;
     border-bottom: none;
   }
+  p.lead {
+    margin-bottom: 10px;
+  }
+
+
+  /* RECENT RESOURCES */
   .recent-resources{
     padding: 0;
   }
@@ -227,5 +233,6 @@ h3{
 }
 .testimonials {
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 30
+    px;
   }

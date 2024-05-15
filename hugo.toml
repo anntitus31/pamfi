@@ -12,7 +12,7 @@ disabled_logo = false
     url        = "/"
     weight     = 1
 [[menu.main]]
-    name       = "SubMENU 1"
+    name       = "SUBMENU 1"
     url        = "/"
     weight     = 1
     parent     = "menu.aboutus"
