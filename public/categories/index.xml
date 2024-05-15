@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on PAMFI (Pastors &amp; Ministers Fellowship International)</title>
-    <link>http://localhost:9165/categories/</link>
+    <link>http://localhost:10608/categories/</link>
     <description>Recent content in Categories on PAMFI (Pastors &amp; Ministers Fellowship International)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate>
-    <atom:link href="http://localhost:9165/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:10608/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lorem</title>
-      <link>http://localhost:9165/categories/lorem/</link>
+      <link>http://localhost:10608/categories/lorem/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      <guid>http://localhost:9165/categories/lorem/</guid>
+      <guid>http://localhost:10608/categories/lorem/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>http://localhost:9165/categories/programming/</link>
+      <link>http://localhost:10608/categories/programming/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      <guid>http://localhost:9165/categories/programming/</guid>
+      <guid>http://localhost:10608/categories/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Pseudo</title>
-      <link>http://localhost:9165/categories/pseudo/</link>
+      <link>http://localhost:10608/categories/pseudo/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      <guid>http://localhost:9165/categories/pseudo/</guid>
+      <guid>http://localhost:10608/categories/pseudo/</guid>
       <description></description>
     </item>
     <item>
       <title>Starting</title>
-      <link>http://localhost:9165/categories/starting/</link>
+      <link>http://localhost:10608/categories/starting/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      <guid>http://localhost:9165/categories/starting/</guid>
+      <guid>http://localhost:10608/categories/starting/</guid>
       <description></description>
     </item>
   </channel>

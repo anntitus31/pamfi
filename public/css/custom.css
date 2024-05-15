@@ -225,3 +225,7 @@ h3{
     display: flex;
    text-decoration:none;
 }
+.testimonials {
+    padding: 0;
+    margin-bottom: 30px;
+  }
