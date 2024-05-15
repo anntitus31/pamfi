@@ -1181,10 +1181,10 @@ fieldset[disabled] .btn-template-primary.active {
   background: #666;
 }
 .home-carousel .owl-theme .owl-controls .owl-page.active span {
-  background: #fff;
+  background: #f20606;
 }
 .home-carousel .owl-theme .owl-controls .owl-page:hover span {
-  background: #fff;
+  background: #f00808;
 }
 @media (max-width: 767px) {
   .home-carousel {
