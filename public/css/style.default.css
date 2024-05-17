@@ -1266,19 +1266,21 @@ fieldset[disabled] .btn-template-primary.active {
 .testimonials {
   padding: 0;
   margin-bottom: 40px;
+ 
 }
 .testimonials .item {
   list-style-type: none;
-  margin: 0 5px;
   background: #fff;
   padding-bottom: 60px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  
 }
 .testimonials .item .testimonial {
   position: relative;
   padding: 20px;
+
 }
 .testimonials .item .testimonial:before,
 .testimonials .item .testimonial:after {
@@ -1337,6 +1339,7 @@ fieldset[disabled] .btn-template-primary.active {
   width: 60px;
   border-radius: 30px;
   margin-left: 10px;
+  
 }
 .team-member {
   text-align: center;
