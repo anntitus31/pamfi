@@ -1,87 +1,18 @@
 <footer>
-<ul class="socials">
-    <li>
-        <a href="https://www.facebook.com/apcwo" target="_blank"><i class='bx bxl-facebook'></i></a>
-    </li>
+    <ul class="socials">
+        {{ range .Site.Params.footer.socials }}
+        <li>
+            <a href="{{ .url }}" target="_blank"><i class='{{ .iconClass }}'></i></a>
+        </li>
+        {{ end }}
+    </ul>
 
-    <li>
-        <a href="https://www.instagram.com/allpeopleschurchbangalore" target="_blank"><i class='bx bxl-instagram'></i></a>
-    </li>
-
-    <li>
-        <a href="https://www.youtube.com/allpeopleschurchbangalore" target="_blank"><i class='bx bxl-youtube'></i></a>
-    </li>
-
-    <li>
-        <a href="https://podcasts.apple.com/in/podcast/sunday-sermons/id1343675396" target="_blank"><i class='bx bxs-music'></i></a>
-    </li>
-
-    <li>
-        <a href="https://podcasts.apcwo.org/apc.xml" target="_blank"><i class="fa fa-rss"></i></a>
-    </li>
-    
-</ul>
-
-
-
-
-
-
-
-
-<ul  class="footerLinks">
-            <li>
-                <a href="https://apcwo.org">CHURCH</a>    
-                <span>|</span>     
-            </li>
-
-
-            <li>
-                <a href="https://apcbiblecollege.org" target="_blank">BIBLE COLLEGE</a> 
-                <span>|</span>
-            </li> 
-
-            <li>
-                <a href="https://apcworldmissions.org" target="_blank">WORLD MISSIONS</a>
-                <span>|</span>
-
-            </li> 
-            
-
-            <li>
-                <a href="https://apcwo.org/sermons" target="_blank">SERMONS</a> 
-                <span>|</span>
-
-                
-            </li>
-
-
-            <li>
-                <a href="https://apcwo.org/books" target="_blank">BOOKS</a>
-                <span>|</span>
-
-                
-            </li>
-
-
-            <li>
-                <a href="https://apcwo.org/devotionals" target="_blank">DAILY DEVOTIONS</a>
-                <span>|</span>
-
-                 
-            </li>
-
-
-
-            <li>
-                <a href="https://apcmusic.org" target="_blank">MUSIC</a> 
-                
-            </li>
-        
-            
-          </ul>
-
-       
-   
-
+    <ul class="footerLinks">
+        {{ range .Site.Params.footer.footerLinks }}
+        <li>
+            <a href="{{ .url }}" target="_blank">{{ .linkName }}</a>
+            {{ if ne (index .Site.Params.footer.footerLinks (sub (len $.Site.Params.footer.footerLinks) 1)).linkName .linkName }}<span>|</span>{{ end }}
+        </li>
+        {{ end }}
+    </ul>
 </footer>

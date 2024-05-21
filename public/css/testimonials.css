@@ -1,0 +1,65 @@
+.news-title
+  {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+
+.bar.background-pentagon 
+  {
+    background: transparent;
+    border-top: none;
+    border-bottom: none;
+  }
+
+
+  p.lead 
+  {
+    margin-bottom: 10px;
+  }
+
+
+  .testimonials 
+  {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+
+.col-md-12
+  {
+    padding-right:0;
+    padding-left:0;
+  }
+
+
+  .testimonials .item .testimonial 
+  {
+    position: relative;
+    padding: 0;
+  
+  }
+
+  
+  .testimonials .item 
+  {
+    list-style-type: none;
+    background: #fff;
+    padding-bottom: 60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 29px;
+    
+  }
+
+
+  .box-image-text 
+  {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 50px 0;
+  }

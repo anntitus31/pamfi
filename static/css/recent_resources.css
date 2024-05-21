@@ -1,0 +1,41 @@
+.resources-title
+  {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+
+.recent-container
+  {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;    
+  }
+
+
+
+.recent-content a img 
+  {
+    width: 30% ;
+    height: 80px;
+    border-radius: 5px;
+  }
+
+
+.recent-content a  p
+  {
+    padding: 18px;
+    color: black;
+    font-size:15px; 
+  }
+
+
+.recent-content a
+  {
+    display: flex;
+    text-decoration:none;
+  }

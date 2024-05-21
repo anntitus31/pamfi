@@ -1,70 +1,19 @@
 <section class="bar background-white no-mb">
     <div class="container">
-        
-            <div class="col-md-12">
-                <h2 class="resources-title">RECENT RESOURCES</h2>
-
-                <p class="lead">
-                    {{ .Site.Params.recent_resources.subtitle | markdownify }}
-                  </p>
+        <div class="col-md-12">
+            <h2 class="resources-title">RECENT RESOURCES</h2>
+            <p class="lead">{{ .Site.Params.recent_resources.subtitle | markdownify }}</p>
   
-                <div class="recent-container">
-                    <div class="recent-content">
-                        <a href="#">
-                            <img src="img/recentresources.jpg">
-                            <p class="description">SERMON: The triumph of the Cross </p>
-                        </a>
-                    </div>
-                    <div class="recent-content">
-                        <a href="#">
-                            <img src="img/recentresources.jpg">
-                            <p class="description">BOOK: The triumph of the Cross</p>
-                        </a>
-                    </div>
-                    <div class="recent-content">
-                        <a href="#">
-                            <img src="img/recentresources.jpg">
-                            <p class="description">MUSIC: The triumph of the Cross</p>
-                        </a>
-                    </div>
-                    <div class="recent-content">
-                        <a href="#">
-                            <img src="img/recentresources.jpg">
-                            <p class="description">SERMON: The triumph of the Cross</p>
-                        </a>
-                    </div>
-                    <div class="recent-content">
-                        <a href="#">
-                            <img src="img/recentresources.jpg">
-                            <p class="description">BOOK: The triumph of the Cross</p>
-                        </a>
-                    </div>
-                    <div class="recent-content">
-                        <a href="#">
-                            <img src="img/recentresources.jpg">
-                            <p class="description">MUSIC: The triumph of the Cross</p>
-                        </a>
-                    </div>
-                    <div class="recent-content">
-                        <a href="#">
-                            <img src="img/recentresources.jpg">
-                            <p class="description">SERMON: The triumph of the Cross</p>
-                        </a>
-                    </div>
-                    <div class="recent-content">
-                        <a href="#">
-                            <img src="img/recentresources.jpg">
-                            <p class="description">BOOK: The triumph of the Cross</p>
-                        </a>
-                    </div>
-                    <div class="recent-content">
-                        <a href="#">
-                            <img src="img/recentresources.jpg">
-                            <p class="description">MUSIC: The triumph of the Cross</p>
-                        </a>
-                    </div>
+            <div class="recent-container">
+                {{ range .Site.Params.recent_resources.resources }}
+                <div class="recent-content">
+                    <a href="#">
+                        <img src="{{ .image }}">
+                        <p class="description">{{ .type }}: {{ .title }}</p>
+                    </a>
                 </div>
-    
+                {{ end }}
+            </div>
+        </div>
+    </div>
 </section>
-</div>
-</div>

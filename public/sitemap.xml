@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/resources/</loc>
+    <lastmod>2024-05-17T14:22:07+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resources/sermons/</loc>
+    <lastmod>2024-05-17T14:22:07+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resources/music/</loc>
+    <lastmod>2024-05-17T14:21:49+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resources/church/</loc>
+    <lastmod>2024-05-17T14:21:40+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resources/books/</loc>
+    <lastmod>2024-05-17T14:21:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/our-fellowship/</loc>
+    <lastmod>2024-05-17T14:20:14+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/join/</loc>
+    <lastmod>2024-05-17T14:19:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/events/</loc>
+    <lastmod>2024-05-17T14:19:26+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/contact-us/</loc>
+    <lastmod>2024-05-17T14:19:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about-us/</loc>
+    <lastmod>2024-05-17T14:17:48+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about-us/purpose/</loc>
+    <lastmod>2024-05-17T14:17:48+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about-us/leadership/</loc>
+    <lastmod>2024-05-17T14:17:39+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about-us/give/</loc>
+    <lastmod>2024-05-17T14:17:05+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-05-17T14:14:46+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
@@ -18,9 +60,6 @@
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/lorem/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/programming/</loc>

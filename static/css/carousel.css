@@ -1,0 +1,52 @@
+.home-carousel .owl-theme .owl-controls .owl-page.active span 
+  {
+    background: #38a7bb !important;
+  }
+
+
+.home-carousel .owl-theme .owl-controls .owl-page:hover span
+  {
+    background: #38a7bb !important;
+   } 
+
+
+.home-carousel 
+  {
+    z-index: 0;
+  }
+
+
+.home-carousel .dark-mask
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+  }
+
+
+  .home-carousel .owl-carousel 
+  {
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+
+
+
+.col-sm-7 .img-responsive 
+  {
+    display: block;
+    width: 100%;
+    height: 500px;
+  }
+
+.col-sm-7
+  {
+    width: 100%;
+  }
+ 
+

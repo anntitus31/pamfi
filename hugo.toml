@@ -1,10 +1,11 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'PAMFI (Pastors & Ministers Fellowship International)'
+title = 'PASTORS AND MINISTERS FELLOWSHIP INTERNATIONAL pamfi.org'
 theme = 'hugo-universal-theme'
-disabled_logo = false
 
-#######################contact us menu##################
+
+#######################about us menu##################
+[[main]]
 
 [[menu.main]]
     name       = "ABOUT US"
@@ -12,43 +13,34 @@ disabled_logo = false
     url        = "/"
     weight     = 1
 [[menu.main]]
-    name       = "SUBMENU 1"
-    url        = "/"
+    name       = "GIVE"
+    url        = "/about-us/give"
     weight     = 1
     parent     = "menu.aboutus"
 
 [[menu.main]]
-    name       = "SUBMENU 2"
-    url        = "/"
+    name       = "LEADERSHIP"
+    url        = "/about-us/leadership"
     weight     = 2
     parent     = "menu.aboutus"
 
+    [[menu.main]]
+    name       = "PURPOSE"
+    url        = "/about-us/purpose"
+    weight     = 3
+    parent     = "menu.aboutus"
+
+
 
 #####################our fellowship menu##################################
-
-    [[menu.main]]
+     [[menu.main]]
     name       = "OUR FELLOWSHIP"
     identifier = "menu.fellowship"
-    url        = "/"
+    url        = "/our-fellowship/"
     weight     = 2
 
-    [[menu.main]]
-    name       = "SUBMENU 3"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.fellowship"
-    [[menu.main]]
-
-    name       = "SUBMENU 4"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.fellowship"
-
-    [[menu.main]]
-    name       = "SUBMENU 5"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.fellowship"
+    
+    
 
     ####################################resources menu##############################
 
@@ -59,21 +51,27 @@ disabled_logo = false
     weight     = 3
 
     [[menu.main]]
-    name       = "SUBMENU 6"
-    url        = "/"
+    name       = "SERMONS"
+    url        = "/resources/sermons"
     weight     = 1
     parent     = "menu.resources"
     [[menu.main]]
 
-    name       = "SUBMENU 7"
-    url        = "/"
+    name       = "BOOKS"
+    url        = "/resources/books"
     weight     = 2
     parent     = "menu.resources"
 
     [[menu.main]]
-    name       = "SUBMENU 8"
-    url        = "/"
+    name       = "CHURCH"
+    url        = "/resources/church"
     weight     = 3
+    parent     = "menu.resources"
+
+     [[menu.main]]
+    name       = "MUSIC"
+    url        = "/resources/music"
+    weight     = 4
     parent     = "menu.resources"
 
 
@@ -81,102 +79,34 @@ disabled_logo = false
  [[menu.main]]
     name       = "EVENTS"
     identifier = "menu.events"
-    url        = "/"
+    url        = "/events/"
     weight     = 4
 
-    [[menu.main]]
-    name       = "SUBMENU 9"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.events"
-    [[menu.main]]
-
-    name       = "SUBMENU 10"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.events"
-
-    [[menu.main]]
-    name       = "SUBMENU 11"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.events"
 
 
 ######################blog menu#######################
  [[menu.main]]
     name       = "BLOG"
     identifier = "menu.blog"
-    url        = "/"
+    url        = "/blog/"
     weight     = 5
 
-    [[menu.main]]
-    name       = "SUBMENU 12"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.blog"
-    [[menu.main]]
-
-    name       = "SUBMENU 13"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.blog"
-
-    [[menu.main]]
-    name       = "SUBMENU 14"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.blog"
+   
 
 #######################join menu########################3
  [[menu.main]]
     name       = "JOIN"
     identifier = "menu.join"
-    url        = "/"
+    url        = "/join/"
     weight     = 6
 
-    [[menu.main]]
-    name       = "SUBMENU 15"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.join"
-    [[menu.main]]
-
-    name       = "SUBMENU 16"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.join"
-
-    [[menu.main]]
-    name       = "SUBMENU 17"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.join"
-
+   
 #####################contact us menu###########################
  [[menu.main]]
     name       = "CONTACT US"
     identifier = "menu.contact us"
-    url        = "/"
+    url        = "/contact-us/"
     weight     = 7
-
-    [[menu.main]]
-    name       = "SUBMENU 18"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.contact us"
-    [[menu.main]]
-
-    name       = "SUBMENU 19"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.contact us"
-
-    [[menu.main]]
-    name       = "SUBMENU 20"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.contact us"
 
 [params]
     viewMorePostLink = "/blog/"
@@ -192,18 +122,75 @@ disabled_logo = false
     
     
 
-
+#######################carousel home page###########################################
 [params.carouselHomepage]
-    enable = true
+     enable = true
     auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
+
+
+#########################################RECENT RESOURCES###########################################
+
+[[params.recent_resources.resources]]
+type = "SERMON"
+title = "The triumph of the Cross"
+image = "/img/recentresources.jpg"
+
+[[params.recent_resources.resources]]
+type = "SERMON"
+title = "The triumph of the Cross"
+image = "/img/recentresources.jpg"
+
+[[params.recent_resources.resources]]
+type = "SERMON"
+title = "The triumph of the Cross"
+image = "/img/recentresources.jpg"
+
+
+
+
+[[params.recent_resources.resources]]
+type = "BOOK"
+title = "The triumph of the Cross"
+image = "/img/recentresources.jpg"
+
+[[params.recent_resources.resources]]
+type = "BOOK"
+title = "The triumph of the Cross"
+image = "/img/recentresources.jpg"
+
+[[params.recent_resources.resources]]
+type = "BOOK"
+title = "The triumph of the Cross"
+image = "/img/recentresources.jpg"
+
+
+[[params.recent_resources.resources]]
+type = "MUSIC"
+title = "The triumph of the Cross"
+image = "/img/recentresources.jpg"
+
+[[params.recent_resources.resources]]
+type = "MUSIC"
+title = "The triumph of the Cross"
+image = "/img/recentresources.jpg"
+
+[[params.recent_resources.resources]]
+type = "MUSIC"
+title = "The triumph of the Cross"
+image = "/img/recentresources.jpg"
+
+
+################################################ FEATURES ####################################################
 
     [params.features]
     enable = true
     cols = 4
 
     summaryLength = 70
+
+############################################## RECENT POSTS #####################################################
 
 [params.recent_posts]
     enable = true
@@ -213,5 +200,69 @@ disabled_logo = false
     enable = true
   
 
-[[params.logo]]
-logoImg = "/img/logoImg.png"
+############################################# LOGO###############################################################
+
+[params.logo]
+logoImg = "/img/apcLogo.png"
+url = "/"
+
+
+
+####################################footer#####################################################################
+
+    [[params.footer.socials]]
+    linkName = "Connect with us on Facebook!"
+    url = "https://www.facebook.com/apcwo"
+    iconClass = "bx bxl-facebook"
+
+    [[params.footer.socials]]
+    linkName = "Connect with us on Instagram!"
+    url = "https://www.instagram.com/allpeopleschurchbangalore"
+    iconClass = "bx bxl-instagram"
+
+    [[params.footer.socials]]
+    linkName = "Subscribe to our YouTube Channel and stay informed!"
+    url = "https://www.youtube.com/allpeopleschurchbangalore"
+    iconClass = "bx bxl-youtube"
+
+    [[params.footer.socials]]
+    linkName = "Listen on iTunes"
+    url = "https://podcasts.apple.com/in/podcast/sunday-sermons/id1343675396"
+    iconClass = "bx bxs-music"
+
+    [[params.footer.socials]]
+    linkName = "Subscribe through our RSS feed"
+    url = "https://podcasts.apcwo.org/apc.xml"
+    iconClass = "fa fa-rss"
+
+
+
+
+    [[params.footer.footerLinks]]
+    linkName = 'CHURCH'
+    url = 'https://apcwo.org'
+
+    [[params.footer.footerLinks]]
+    linkName = 'BIBLE COLLEGE'
+    url = 'https://apcbiblecollege.org'
+    
+    [[params.footer.footerLinks]]
+    linkName = 'WORLD MISSIONS'
+    url = 'https://apcworldmissions.org'
+
+    [[params.footer.footerLinks]]
+    linkName = 'SERMONS'
+    url = 'https://apcwo.org/sermons'
+
+    [[params.footer.footerLinks]]
+    linkName = 'BOOKS'
+    url = 'https://apcwo.org/books'
+
+    [[params.footer.footerLinks]]
+    linkName = 'DAILY DEVOTIONS'
+    url = 'https://apcwo.org/devotionals'
+
+    [[params.footer.footerLinks]]
+    linkName = 'MUSIC'
+    url = 'https://apcmusic.org'
+

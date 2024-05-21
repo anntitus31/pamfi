@@ -1,0 +1,100 @@
+.menu-bar
+    {
+        text-align: center;
+        z-index: 2;
+        padding-top: 15px;
+    }
+
+
+.menu-bar ul
+    {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        color: black;
+        gap: 15px;
+    }
+
+
+.menu-bar ul li
+    {
+        width: auto;
+        padding: 5px;
+    }
+
+
+.menu-bar ul li:hover
+    {
+        background-color:whitesmoke; 
+        border-radius: 3px;
+    }
+
+
+.menu-bar ul li a 
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+
+
+.sub-menu-1 
+    {
+        display: none; /* Hide the dropdown menu by default */
+        background-color: white;
+    }
+
+
+  
+.menu-bar ul li:hover .sub-menu-1 
+  {
+        display: block;
+        position: absolute;
+        margin-left: -10px; /* Show the dropdown menu when its parent <li> is hovered over */
+  }
+  
+
+.menu-bar ul li:hover .sub-menu-1 ul
+    {
+        display: block;
+        margin: 5px;
+    }
+
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+    {
+        width: 70px;
+        padding: 5px;
+        border-bottom: 1px solid black;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+        
+    }
+
+
+.menu-bar ul li:hover .sub-menu-1 ul li a
+ {
+    font-size: 12px;
+}
+
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: lightgrey; 
+}
+
+
+ul 
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+

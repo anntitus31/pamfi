@@ -1,0 +1,44 @@
+header 
+    {
+        width: 100%;
+    }  
+
+    
+
+.title-container
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+
+.title 
+    {
+        text-align: center;
+        padding-top: 10px;
+
+    }
+
+
+.title h1 
+    {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+
+.logo 
+    {
+        width: 95px;
+        height: 95px;
+        left: 48.5px;
+        position: absolute;
+    }
+
+
+.nav-content    
+    {
+        display: flex;
+        justify-content: end;
+    }      

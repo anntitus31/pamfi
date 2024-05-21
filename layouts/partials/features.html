@@ -16,7 +16,7 @@
 
         {{ range $i, $sequence := seq $total_rows }}
           <div class="row row-{{ $i }} row-{{ if eq (mod $i 2) 0 }}odd{{ else }}even{{ end }}">
-            {{ range $j, $sequence2 := (seq $elements) }}
+                {{ range $j, $sequence2 := (seq $elements) }}
 
                 {{ $feature_index := add (mul $i $elements) $j }}
                 {{ if lt $feature_index (len $features) }}
@@ -37,8 +37,8 @@
                             <p>{{ $element.description | markdownify }}</p>
                         </div>
                     </div>
+                    {{ end }}
                 {{ end }}
-            {{ end }}
           </div>
         {{ end }}
     </div>

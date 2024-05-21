@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PAMFI (Pastors &amp; Ministers Fellowship International)</title>
+    <title>JOIN on PASTORS AND MINISTERS FELLOWSHIP INTERNATIONAL pamfi.org</title>
     <link>http://localhost:1313/join/</link>
-    <description>Recent content on PAMFI (Pastors &amp; Ministers Fellowship International)</description>
+    <description>Recent content in JOIN on PASTORS AND MINISTERS FELLOWSHIP INTERNATIONAL pamfi.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/join/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
