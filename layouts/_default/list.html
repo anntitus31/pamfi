@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     {{ partial "headers.html" . }}
     {{ partial "custom_headers.html" . }}
+
 </head>
 <body>
+
     {{ partial "header" . }}
+
     <main>
+
         {{ if and (ne .Section "blog") (ne .Type "categories") (ne .Type "tags") }}
             
             <section class="bar background-white no-mb">
@@ -16,11 +21,11 @@
                     </section>
                 </div>
             </section>
-        {{ else }}
-            {{ partial "breadcrumbs.html" . }}
+            {{ else }}
+                {{ partial "breadcrumbs.html" . }}
 
-            <div id="content">
-                <div class="container">
+                <div id="content">
+                    <div class="container">
                     <div class="row">
                         <!-- *** LEFT COLUMN *** -->
                         <div class="col-md-9" id="blog-listing-medium">
@@ -99,9 +104,13 @@
                     </div>
                 </div>
             </div>
+
         {{ end }}
+
     </main>
+
     {{ partial "footer.html" . }}
     {{ partial "scripts.html" . }}
+
 </body>
 </html>

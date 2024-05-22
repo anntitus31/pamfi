@@ -2,16 +2,18 @@
     <ul class="socials">
         {{ range .Site.Params.footer.socials }}
         <li>
-            <a href="{{ .url }}" target="_blank"><i class='{{ .iconClass }}'></i></a>
+            <a href="{{ .url }}" target="_blank"><i class="{{ .iconClass }}"></i></a>
         </li>
         {{ end }}
     </ul>
 
     <ul class="footerLinks">
-        {{ range .Site.Params.footer.footerLinks }}
+        {{ $footerLinks := .Site.Params.footer.footerLinks }}
+        {{ $lastIndex := sub (len $footerLinks) 1 }}
+        {{ range $index, $element := $footerLinks }}
         <li>
-            <a href="{{ .url }}" target="_blank">{{ .linkName }}</a>
-            {{ if ne (index .Site.Params.footer.footerLinks (sub (len $.Site.Params.footer.footerLinks) 1)).linkName .linkName }}<span>|</span>{{ end }}
+            <a href="{{ $element.url }}" target="_blank">{{ $element.linkName }}</a>
+            {{ if ne $index $lastIndex }}<span>|</span>{{ end }}
         </li>
         {{ end }}
     </ul>
