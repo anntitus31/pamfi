@@ -2,6 +2,8 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'PASTORS AND MINISTERS FELLOWSHIP INTERNATIONAL pamfi.org'
 theme = 'hugo-universal-theme'
+ disqusShortname = "devcows"
+    
 
 
 #######################about us menu##################
@@ -114,6 +116,8 @@ theme = 'hugo-universal-theme'
     defaultKeywords = ["devcows", "hugo", "go"]
     mainSections = ["blog"]
     defaultDescription = "Site template made by Devcows using Hugo"
+    disqusShortname = "devcows"
+    
 
     date_format = "January 2, 2006"
 
@@ -121,6 +125,10 @@ theme = 'hugo-universal-theme'
     enable = true
     
     
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
 
 #######################carousel home page###########################################
 [params.carouselHomepage]
@@ -266,3 +274,7 @@ url = "/"
     linkName = 'MUSIC'
     url = 'https://apcmusic.org'
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"

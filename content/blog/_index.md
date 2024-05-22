@@ -1,5 +1,5 @@
 +++
-title = 'Blog'
-date = 2024-05-21T15:32:34+05:30
-draft = false
+title = 'BLOG'
+date = 2024-05-17T14:19:03+05:30
+draft = true
 +++
