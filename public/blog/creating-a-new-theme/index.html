@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=15025&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=17311&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
@@ -41,7 +41,7 @@
 
 
 
-<link href="/css/custom.css?1716360419" rel="stylesheet">
+<link href="/css/custom.css?1716369166" rel="stylesheet">
 
 
 
@@ -60,7 +60,7 @@
 <link href="/css/owl.theme.css" rel="stylesheet">
 
 
-<link rel="alternate" href="http://localhost:15025/index.xml" type="application/rss+xml" title="PASTORS AND MINISTERS FELLOWSHIP INTERNATIONAL pamfi.org">
+<link rel="alternate" href="http://localhost:17311/index.xml" type="application/rss+xml" title="PASTORS AND MINISTERS FELLOWSHIP INTERNATIONAL pamfi.org">
 
 
 
@@ -73,9 +73,9 @@
 <meta property="og:site_name" content="PASTORS AND MINISTERS FELLOWSHIP INTERNATIONAL pamfi.org">
 <meta property="og:title" content="PASTORS AND MINISTERS FELLOWSHIP INTERNATIONAL pamfi.org">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://localhost:15025/blog/creating-a-new-theme/" />
+<meta property="og:url" content="http://localhost:17311/blog/creating-a-new-theme/" />
 <meta property="og:description" content="This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content.">
-<meta property="og:image" content="http://localhost:15025/img/banners/banner-1.jpg">
+<meta property="og:image" content="http://localhost:17311/img/banners/banner-1.jpg">
 <meta property="og:image:type" content="image/jpg">
 
 
@@ -101,7 +101,7 @@
 
 <meta name="twitter:title" content="PASTORS AND MINISTERS FELLOWSHIP INTERNATIONAL pamfi.org">
 
-<meta name="twitter:image" content="http://localhost:15025/img/banners/banner-1.jpg">
+<meta name="twitter:image" content="http://localhost:17311/img/banners/banner-1.jpg">
 
 <meta name="twitter:description" content="This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content.">
 
@@ -229,8 +229,7 @@
 
     <main>
         
-    </main>
-    <div id="heading-breadcrumbs">
+            <div id="heading-breadcrumbs">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -242,55 +241,53 @@
     </div>
 </div>
 
-    
-    <div id="content">
-        <div class="container">
-            <div class="row">
 
-                    
-
-                <div class="col-md-9" id="blog-post">
+            <div id="content">
+                <div class="container">
+                    <div class="row">
 
                         
-                          <p class="text-muted text-uppercase mb-small text-right">
-                                
-			                        By <a href="/authors/jane-doe">Jane Doe</a>
-                                
-                                
+                        <div class="col-md-9" id="blog-post">
+                            
+                                <p class="text-muted text-uppercase mb-small text-right">
+                                    
+                                        By <a href="/authors/jane-doe">Jane Doe</a>
                                     
                                     
                                     
-                                  
-                              
-                                  
-                              
-                                  
-                              
-                                  
-                              
-                                  
-                              
-                                  
-                              
-                                  
-                              
-                                  
-                              
-                                  
-                              
-                                  
-                              
-                                  
-                              
-                                  
-                              
-                                June 24, 2015
-                                
-                          </p>
-                        
+                                        
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                        June 24, 2015
+                                    
+                                </p>
+                            
 
-                        <div id="post-content">
-                          <h2 id="introduction">Introduction</h2>
+                            <div id="post-content">
+                                <h2 id="introduction">Introduction</h2>
 <p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
 <p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>
 <p>In this tutorial, commands that you enter will start with the &ldquo;$&rdquo; prompt. The output will follow. Lines that start with &ldquo;#&rdquo; are comments that I&rsquo;ve added to explain a point. When I show updates to a file, the &ldquo;:wq&rdquo; on the last line means to save the file.</p>
@@ -1096,11 +1093,11 @@ $ vi themes/zafta/layouts/_default/single.html
 <h3 id="dont-repeat-yourself">Don&rsquo;t Repeat Yourself</h3>
 <p>DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&rsquo;re figuring that out, accept that you&rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&rsquo;s okay to delay splitting up a template.</p>
 
-                        </div>
-                        
-                        
-                        <div id="comments">
-                            <div id="disqus_thread"></div>
+                            </div>
+                            
+                            
+                                <div id="comments">
+                                    <div id="disqus_thread"></div>
 <script>
     window.disqus_config = function () {
     
@@ -1120,18 +1117,16 @@ $ vi themes/zafta/layouts/_default/single.html
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                                </div>
+                            
                         </div>
                         
 
-                </div>
-                    
-
-                    
-
-                    
-
-                    <div class="col-md-3">
                         
+
+                        
+                        <div class="col-md-3">
+                            
 
 <div class="panel panel-default sidebar-menu">
 
@@ -1143,7 +1138,7 @@ $ vi themes/zafta/layouts/_default/single.html
         <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
             <div class="input-group">
                 <input type="search" name="q" class="form-control" placeholder="Search">
-                <input type="hidden" name="sitesearch" value="http://localhost:15025/">
+                <input type="hidden" name="sitesearch" value="http://localhost:17311/">
                 <span class="input-group-btn">
                     <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
                 </span>
@@ -1238,11 +1233,14 @@ $ vi themes/zafta/layouts/_default/single.html
 
 
 
-                    </div>     
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-            <footer>
+        
+    </main>
+
+    <footer>
     <ul class="socials">
         
         <li>
@@ -1306,7 +1304,7 @@ $ vi themes/zafta/layouts/_default/single.html
         
     </ul>
 </footer>
-         
+    
 <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -1321,6 +1319,6 @@ $ vi themes/zafta/layouts/_default/single.html
 
 <script src="/js/owl.carousel.min.js"></script>
 
- 
+
 </body>
 </html>
